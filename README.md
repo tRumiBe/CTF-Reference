@@ -1,18 +1,18 @@
 # CTF Quick Reference
 
 
-#### Common OSINT tools
+### Common OSINT tools
 
-[WHOIS Lookup Tool](https://lookup.icann.org/en)
-[View Metadata Online](https://www.metadata2go.com/view-metadata)
-[OpenPGP](https://keys.openpgp.org/)
-[OpenPGP Keyserver](https://keyserver.ubuntu.com/)
-[Barcode Reader](https://online-barcode-reader.inliteresearch.com/)
-[Hexed.it](https://hexed.it/?hl=en)
-[CyberChef](https://gchq.github.io/CyberChef/)
-[Epoch Time](https://www.epochconverter.com/seconds-days-since-y0)
+* [WHOIS Lookup Tool](https://lookup.icann.org/en)
+* [View Metadata Online](https://www.metadata2go.com/view-metadata)
+* [OpenPGP](https://keys.openpgp.org/)
+* [OpenPGP Keyserver](https://keyserver.ubuntu.com/)
+* [Barcode Reader](https://online-barcode-reader.inliteresearch.com/)
+* [Hexed.it](https://hexed.it/?hl=en)
+* [CyberChef](https://gchq.github.io/CyberChef/)
+* [Epoch Time](https://www.epochconverter.com/seconds-days-since-y0)
 
-#### HTTP Header
+### HTTP Header
 
 | Example |Description |
 |--|--|
@@ -22,33 +22,43 @@
 | Accept-Charset: utf-8 | Acceptable Character set |
 
 
-#### Common tools and commands
+### Common tools and commands
 
-`strings pineapple.jpg | grep password`
+```
+strings pineapple.jpg | grep password
+```
 
-##### Hashcat
+#### Hashcat
 
-`hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt > result.txt`
+```
+hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt > result.txt
+```
 
 - `-m 0` specifies MD5 hashing.
 - `-a 0` adictionary ttack mode. 
 
-`hashcat -m 0 -a 3 ./hash.txt 'PIN-?d?d?d?d'`
+```
+hashcat -m 0 -a 3 ./hash.txt 'PIN-?d?d?d?d'
+```
 
 - `-a 3` brute-force atatck mode for masking.
 - `PIN-?d?d?d?d` password starts with `PIN-` followed by 4 digits number. 
 
-`hashcat hash.txt -m 0 -a 6 hash.txt creditcards.txt ?d?d?d?d`
+```
+hashcat hash.txt -m 0 -a 6 hash.txt creditcards.txt ?d?d?d?d
+```
 
 - `-a 6` hybrid attack mode.
 - `?d?d?d?d` credit card number ends with 4 digit numbers. 
 
-##### John
+#### John
 
- `john --wordlist=/usr/share/wordlists/rockyou.txt --format=crypt my-hash.txt > result.txt`
+ ```
+ john --wordlist=/usr/share/wordlists/rockyou.txt --format=crypt my-hash.txt > result.txt
+ ```
 
 
-#### ASCII Table
+### ASCII Table
 |65|66|67|68|69|70|71|72|73|74|75|76|77|78|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 |A|B|C|D|E|F|G|H|I|J|K|L|M|N|
