@@ -1,19 +1,19 @@
 ### Password Cracking Cheatsheet
 
-##### Windows password
+#### Windows password
 Use Kali ophcrack tool ti crack Windows password. 
 
-##### PDF Password crack using John
+#### PDF Password crack using John
 
 1. Use this [online tool](https://hashes.com/en/johntheripper/pdf2john) to get a hash. 
 2. `john --wordlist=/usr/share/wordlists/rockyou.txt --format=PDF my-hash.txt > result.txt`
 3. OR `john --show my-hash.txt`
 
-##### Kali Shadow file using John
+#### Kali Shadow file using John
 
 `Bob:$6$3IZbL38p$DthlEy45WxGJ80FgAs5JpCpLbJXTXzFv40UDiIN/2.CcQO39u1uU18822:0:99999:7::3712`
 
-[shadow password format](https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1603347459833-GSR76P31T020NK97YV4B/BSY+Security+Class+Diagrams+-+_etc_shadow+%28L%29.jpg)
+[Shadow password format](https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1603347459833-GSR76P31T020NK97YV4B/BSY+Security+Class+Diagrams+-+_etc_shadow+%28L%29.jpg)
 
 - Password hash: `$6$3IZbL38p$DthlEy45WxGJ80FgAs5JpCpLbJXTXzFv40UDiIN/2.CcQO39u1uU`
 
