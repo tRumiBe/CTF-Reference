@@ -2,15 +2,15 @@
 
 
 * [OSINT](https://github.com/tRumiBe/CTF-Reference/blob/main/OSINT.md)
-*[Crptyography](https://github.com/tRumiBe/CTF-Reference/blob/main/cryptography.md)
-*[Enumeration](https://github.com/tRumiBe/CTF-Reference/blob/main/enumeration.md)
-*[Forensic](https://github.com/tRumiBe/CTF-Reference/blob/main/forensics.md)
-*[Log Analysis](https://github.com/tRumiBe/CTF-Reference/blob/main/log-analysis.md)
-*[Network](https://github.com/tRumiBe/CTF-Reference/blob/main/network.md)
-*[Password](https://github.com/tRumiBe/CTF-Reference/blob/main/password.md)
-*[Reconnaissance](https://github.com/tRumiBe/CTF-Reference/blob/main/scanning.md)
-*[Web App](https://github.com/tRumiBe/CTF-Reference/blob/main/webapp.md)
-*[Wireless](https://github.com/tRumiBe/CTF-Reference/blob/main/wireless.md)
+* [Crptyography](https://github.com/tRumiBe/CTF-Reference/blob/main/cryptography.md)
+* [Enumeration](https://github.com/tRumiBe/CTF-Reference/blob/main/enumeration.md)
+* [Forensic](https://github.com/tRumiBe/CTF-Reference/blob/main/forensics.md)
+* [Log Analysis](https://github.com/tRumiBe/CTF-Reference/blob/main/log-analysis.md)
+* [Network](https://github.com/tRumiBe/CTF-Reference/blob/main/network.md)
+* [Password](https://github.com/tRumiBe/CTF-Reference/blob/main/password.md)
+* [Reconnaissance](https://github.com/tRumiBe/CTF-Reference/blob/main/scanning.md)
+* [Web App](https://github.com/tRumiBe/CTF-Reference/blob/main/webapp.md)
+* [Wireless](https://github.com/tRumiBe/CTF-Reference/blob/main/wireless.md)
 
 
 ### Common OSINT tools
