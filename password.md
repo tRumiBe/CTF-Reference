@@ -20,7 +20,7 @@ Use Kali ophcrack tool ti crack Windows password.
 - 3712 days since 01-01-1970. The last update was on 03-01-1980. 
 [Epoch time converter](https://www.epochconverter.com/seconds-days-since-y0)
 
-- Salt is between 2nd $ and 3re $.
+- Salt is between 2nd and 3rd `$`.
 
 - hash = digest. Also known as a message digest, digest, or hash value
 

@@ -1,5 +1,15 @@
 ### Network & Wireshark
 
+
+#### Network Communication 
+
+* Ininializaton (Client → Server)
+* Encrypt Request (Client → Server)
+
+
+
+
+
 #### Wireshark filter command 
 
 

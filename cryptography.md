@@ -1,4 +1,3 @@
-
 ## Cryptography
 
 | Cryptography | Example |
